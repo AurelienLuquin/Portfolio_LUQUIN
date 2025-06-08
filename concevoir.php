@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concevoir – Compétence GEII</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.php">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php#competences">Retour aux compétences</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Titre de page (hors section) -->
+<section class="pt-5 mt-5 bg-white">
+  <div class="bg-white py-5 border-bottom shadow-sm">
+    <div class="container text-center">
+      <h1 class="display-5 fw-bold text-primary mb-3">Concevoir la partie GEII d’un système industriel</h1>
+      <hr class="w-25 mx-auto text-primary opacity-75" style="height: 3px;">
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 1 : Conception -->
+<section class="py-5 bg-light" id="cahier-des-charges">
+  <div class="container">
+    <h2 class="text-primary text-center mb-4">Contribuer à la rédaction d’un cahier des charges</h2>
+
+    <!-- Texte explicatif -->
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p>
+          Lors de mon stage chez <strong>IS Maintenance</strong>, j’ai eu l’opportunité de rédiger un <strong>cahier des charges complet</strong> dans le cadre d’un projet de retrofit d’une ligne de production multicouche à bulles pour l'entreprise ATI Isolation.
+        </p>
+        
+        <p>
+          Cette ligne multicouche permet de créer des isolants pour l’habitat, notamment dans le domaine de l’isolation thermique des bâtiments. 
+          Elle est dite "multicouche" car elle assemble plusieurs couches d’isolants différents à l’aide de moteurs, vérins et éléments chauffants visibles sur l’image. 
+          Le processus est semi-automatisé : une fois la ligne lancée, les couches sont entraînées, chauffées et fusionnées sans intervention manuelle, 
+          sauf pour le remplacement des bobines lorsqu’un rouleau arrive en fin de course. Cette automatisation permet un rendement élevé et une constance dans la qualité des produits fabriqués.
+        </p>
+
+        <p>
+          Cette mission a été menée <strong>directement sur site</strong>, à partir de l’observation de la ligne existante et de discussions avec les opérateurs et le responsable technique. 
+          L’entreprise ne disposait pas de cahier des charges écrit : il m’a donc fallu analyser les besoins et contraintes exprimés oralement, les structurer et les formaliser dans un document technique exploitable.
+        </p>
+
+        <p>
+          Le but était de définir le fonctionnement attendu des différents modules de la ligne, les modifications mécaniques et électriques à apporter, ainsi que les améliorations en matière de sécurité. 
+          J’ai identifié les composants nécessaires (moteurs, vérins, freins, chauffes), proposé des solutions adaptées aux attentes du client et organisé l’ensemble de manière logique, claire et accessible aux équipes techniques.
+        </p>
+
+        <p>
+          Une partie importante du travail a également porté sur l’analyse des équipements électriques existants, comme illustré sur la photo ci-dessous montrant une armoire technique. 
+          L’étude de cet équipement a permis d’évaluer les points de raccordement, les protections à adapter, ainsi que les capacités restantes disponibles pour intégrer les nouveaux modules à la ligne.
+        </p>
+
+        <p>
+          Cette démarche m’a conduit à échanger avec plusieurs interlocuteurs (opérateurs, régisseurs, responsables techniques), afin de garantir la cohérence des choix retenus. 
+          J’ai également veillé à produire une documentation claire, avec des termes simples, permettant une appropriation rapide par les futurs utilisateurs et techniciens.
+        </p>
+
+        <p>
+          Cette expérience m’a permis de <strong>mettre en œuvre une démarche complète d’analyse, de communication client et de formalisation technique</strong>, tout en respectant les contraintes.
+        </p>
+      </div>
+
+      <!-- Images à droite -->
+      <div class="col-md-6 text-center">
+        <img src="image/ligne_production_ati.jpg" alt="Ligne de production ATI Isolation" class="img-fluid rounded shadow mb-3" style="max-width: 100%; height: auto; width: 320px;">
+        <p class="text-muted">Vue de la ligne multicouche à moderniser</p>
+
+        <img src="image/Armoire.png" alt="Armoire électrique existante" class="img-fluid rounded shadow mt-3" style="max-width: 100%; height: auto; width: 320px;">
+        <p class="text-muted">Exemple d’équipement technique étudié dans le cadre du cahier des charges</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3">
+    © Luquin Aurélien – Portfolio BUT GEII
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

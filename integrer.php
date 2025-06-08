@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concevoir – Compétence GEII</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.php">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php#competences">Retour aux compétences</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Titre de page (hors section) -->
+<section class="pt-5 mt-5 bg-white">
+  <div class="bg-white py-5 border-bottom shadow-sm">
+    <div class="container text-center">
+      <h1 class="display-5 fw-bold text-primary mb-3">Intégrer un système de commande et de contrôle dans un procédé industriel</h1>
+      <hr class="w-25 mx-auto text-primary opacity-75" style="height: 3px;">
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 1 : Conception -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-primary text-center mb-5">Planifier l’installation et la mise en service d’un nouvel équipement</h2>
+    <div class="row align-items-center">
+
+      <!-- Texte à gauche -->
+      <div class="col-md-7">
+        <p><strong>Mise en contexte :</strong><br>
+        Dans le cadre de mon alternance, j’ai eu la responsabilité de planifier et préparer la mise en service d’un réseau interne pour le Théâtre Nouvelle Génération. Ce réseau devait interconnecter l'ensemble des équipements audiovisuels, de son, d’éclairage et de supervision. L'objectif était de permettre un contrôle centralisé efficace pour les régisseurs son et lumière.</p>
+
+        <p><strong>Phase de planification :</strong><br>
+        Mon travail a débuté par l’analyse d’un synoptique réseau préparé par les régisseurs, qui détaillait les liaisons à établir entre différents équipements. J'ai identifié les emplacements idéaux pour chaque switch Ethernet (3 de 24 ports, 7 de 16 ports, 6 de 8 ports), en tenant compte des contraintes techniques et d’accessibilité pour la maintenance. J’ai également établi un ordre d’intervention précis : configuration en atelier, test sur banc, puis installation physique.</p>
+
+        <p><strong>Anticipation et organisation :</strong><br>
+        En amont, j’ai anticipé les besoins en matériel, identifié les paramètres critiques à préparer (VLAN, IP fixes, priorisation du trafic), et prévu des sessions de test avant l'installation finale. J’ai aussi planifié une formation utilisateur pour les régisseurs, ainsi qu’une documentation technique à leur remettre en fin de chantier.</p>
+
+        <p><strong>Utilisation d'une interface professionnelle :</strong><br>
+        Pour configurer les switchs de manière sécurisée et intuitive, j’ai utilisé l’interface web développée par Cisco. Elle permettait d’assigner les VLAN, d’attribuer les IP fixes, et de gérer les priorités de flux réseau avec clarté. L’interface était idéale pour garantir une configuration conforme aux exigences techniques des régisseurs.</p>
+
+        <p><strong>Conclusion :</strong><br>
+        Cette mission m’a permis de mettre en pratique une planification rigoureuse, en lien direct avec les attentes du client et les exigences techniques du chantier. J’ai su anticiper les étapes clés, organiser le déploiement du réseau de façon logique et sécurisée, et préparer les utilisateurs finaux à sa prise en main.</p>
+      </div>
+
+      <!-- Images à droite -->
+      <div class="col-md-5 text-center">
+        <img src="image/test_switchs.jpg" class="img-fluid rounded shadow mb-3" style="max-width: 350px; height: auto;">
+        <p class="text-muted">Banc de test des switchs avant installation.</p>
+
+        <img src="image/cisco.png" class="img-fluid rounded shadow mt-3" style="max-width: 350px; height: auto;">
+        <p class="text-muted">Interface Cisco utilisée pour la configuration réseau.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 2 : Développement -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-primary text-center mb-5">Produire une procédure d’installation et de mise en service d’un système</h2>
+    <div class="row align-items-center">
+
+      <!-- Images à gauche -->
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img src="image/TNG.jpg" class="img-fluid rounded shadow mb-3" style="max-width: 350px; height: auto;" alt="Devanture du Théâtre Nouvelle Génération">
+        <p class="text-muted">Devanture du Théâtre Nouvelle Génération de Vaise.</p>
+
+        <img src="image/installation_switchs.jpg" class="img-fluid rounded shadow" style="max-width: 350px; height: auto;" alt="Installation switchs">
+        <p class="text-muted mt-2">Installation physique des switchs dans les baies techniques du théâtre.</p>
+      </div>
+
+      <!-- Texte à droite -->
+      <div class="col-md-7">
+        <p><strong>Mise en contexte :</strong><br>
+        La procédure d’installation a été réalisée dans le cadre du projet réseau mené au <strong>Théâtre Nouvelle Génération</strong> de Vaise. Ce théâtre accueillant du public et des spectacles variés nécessitait une infrastructure informatique robuste et bien documentée pour la supervision du son, des lumières et de la vidéo.</p>
+
+        <p><strong>Réalisation de la procédure :</strong><br>
+        Une fois la planification terminée, j’ai mis en application la procédure d’installation et de mise en service. Chaque switch était configuré en atelier avec les bons paramètres : VLAN séparés pour chaque flux (audio, vidéo, internet, intercom, supervision), IP statiques, priorisation du trafic (QoS), et désactivation de l’option EEE pour garantir les performances audio.</p>
+
+        <p><strong>Installation et test :</strong><br>
+        Après les tests fonctionnels en interne, j’ai procédé à l’installation physique des switchs dans les baies techniques, en vérifiant chaque connexion Ethernet, leur alimentation et leur accessibilité future. J’ai ensuite validé leur fonctionnement sur site avec des tests réels : communication avec les consoles, les haut-parleurs, et les interfaces de supervision.</p>
+
+        <p><strong>Transmission au client :</strong><br>
+        J’ai rédigé un rapport d’installation précis avec la procédure de reprogrammation et formé les régisseurs à l’utilisation du système. Cela leur permet aujourd’hui d’être autonomes pour surveiller et maintenir leur réseau interne.</p>
+
+        <p><strong>Conclusion :</strong><br>
+        Cette mission m’a permis de mettre en pratique une procédure technique rigoureuse, documentée et compréhensible pour des utilisateurs finaux. J’ai aussi appris à présenter oralement la procédure et à structurer les étapes essentielles de mise en service.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3">
+    © Luquin Aurélien – Portfolio BUT GEII
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
